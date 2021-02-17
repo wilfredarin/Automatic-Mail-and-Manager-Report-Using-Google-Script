@@ -1,7 +1,7 @@
 # Automatic-Mail-and-Manager-Report-Using-Google-Scripts
 
 ### Problem Statement : 
-We have Three Designations District Manager (DM), Whole Sale Distributors (WDs) and Area Manager (AMs).WDs have to upload a file using Google form and so that it reaches the  District Manager, Since There are a lot 100s of WDs under a District Manager, it's hard for a DM to keep track of all the files. So the DM assigns the task of following up WD's file uploads to few of the AMs.<br>
+We have Three Designations District Manager (DM), Whole Sale Distributors (WDs) and Area Manager (AMs). WDs have to upload a file using Google form and so that it reaches the  District Manager, since there are  100s of WDs under a District Manager, it's hard for a DM to keep track of all the files. So the DM assigns the task of following up WD's file uploads to few of the AMs.<br>
 
 __Following Documentation Explains the approach taken to solve this problem__
 
@@ -9,7 +9,7 @@ __Following Documentation Explains the approach taken to solve this problem__
 
 This is Google Script Code, it automaticaly sends a Customised mail to the assigned AM, when ever a  WD fills the form  upload the daily report.
 
-IT also Sends Regular Update on Mail to all the Managers updating them about the current stautus, with information regarding number and names of Employees who are due to send their Report and who have not send send their report.
+IT also sends regular update on mail to all the Area Managers updating them about the current stautus, with information regarding number and names of WDs who are due to send their Report and who have not send send their report.
 
 ## How To Use IT ?
 
