@@ -1,7 +1,7 @@
 # Automatic-Mail-and-Manager-Report-Using-Google-Scripts
 
 ### Problem Statement : 
-We have Two Sets of Designation Whole Sale Distributors (WDs) and Area Manager (AMs). WD have to upload a file using Google form and so that it reaches the Companies District Manager, Since There are a lot WDs under a District Manager, it's hard for DM to keep track of all the files. So the DM assigns the task of following up WD's file uploads to few of the AMs.<br>
+We have Three Designations District Manager (DM), Whole Sale Distributors (WDs) and Area Manager (AMs).WDs have to upload a file using Google form and so that it reaches the  District Manager, Since There are a lot 100s of WDs under a District Manager, it's hard for a DM to keep track of all the files. So the DM assigns the task of following up WD's file uploads to few of the AMs.<br>
 
 __Following Documentation Explains the approach taken to solve this problem__
 
@@ -61,13 +61,13 @@ Create 4 sheets including, Form Response Sheet, i.e Google Sheet will have 4 She
 <br>
 
 <br>
-The Google Script Code has 5 Functions to implement the required task.<br><br>
+The Google Script Code has 5 Functions to implement the required task.
 1. main
 2. fetchManagerCode
 3. updateManagers
 4. fetchWdName
 5. fetchAmNameEmail
-<br><br>
+
 
 ### main() Function
 <br>
