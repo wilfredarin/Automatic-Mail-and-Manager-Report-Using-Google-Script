@@ -6,7 +6,9 @@ IT also Sends Regular Update on Mail to all the Managers updating them about the
 send their Report and who have not send send their report.
 
 ## **How To Use IT ?**
-<br><br>
+<br>
+I have used **WD** for Whole Sale Distribitor (Employee) and **AM** for Area Manager at multiple places.
+<br>
 
 ## **Step 1 : Create a Google Form**<br>
 Start with creating a Google Form, With the following fields Name,WD Code (i.e Employee Code) and File Upload.<br> 
@@ -25,31 +27,31 @@ Create 4 sheets including, Form Response Sheet, i.e Google Sheet will have 4 She
 
 
 
-Sheet 1 : Add an extra column of Email Stautus to the Response Sheet <br>
+**Sheet 1 : Add an extra column of Email Stautus to the Response Sheet** <br><br>
 ![Google Form Response Sheet](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/Form%20Response.png?raw=true)
 
 
-<br>
+<br><br>
 
 
-Sheet 2 : This Sheet Contains Data of Manager, Name, Code and Email <br>
+**Sheet 2 : This Sheet Contains Data of Manager, Name, Code and Email** <br><br>
 ![AM Data Sheet](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/Google%20Form.png?raw=true)
 
-<br>
+<br><br>
  
-Sheet 3 :  Data of Employee, Name & Employee Code   <br>
+**Sheet 3 :  Data of Employee, Name & Employee Code** <br>   <br>
 ![WD Data Sheet](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/WD%20Data.png?raw=true)
 
-<br>
+<br><br>
 
-Sheet 4 : This Sheet has Employee ID (WD Code) mapped against Manager ID (AM Code) <br>
+**Sheet 4 : This Sheet has Employee ID (WD Code) mapped against Manager ID (AM Code)** <br><br>
 ![WD AM Mapper Sheet](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/WD%20AM%20Mapper.png?raw=true)
 
 
 <br><br>
 ## **Step 3: ADD Google Script Code, main.gs From this repository to the Script editor in Google Sheet**
 <br>
-[Copy this Google Script Code into the Google Sheet Script Editor](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/main.gs)
+[Copy this Code into the Google Sheet Script Editor](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/main.gs)
 <br>
 
 <br>
