@@ -13,7 +13,7 @@ I have used **WD** for Whole Sale Distribitor (Employee) and **AM** for Area Man
 ## Step 1 : Create a Google Form<br>
 Start with creating a Google Form, With the following fields Name,WD Code (i.e Employee Code) and File Upload.<br> 
  
-![Google Form] (https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/Google%20Form.png?raw=true)
+![Google Form](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/Google%20Form.png?raw=true)
 
 <br>
 ## Step 2 : Link the Google Form to Google Sheet for accepting responses
@@ -28,14 +28,14 @@ Create 4 sheets including, Form Response Sheet, i.e Google Sheet will have 4 She
 
 
 **Sheet 1 : Add an extra column of Email Stautus to the Response Sheet** <br><br>
-![Google Form Response Sheet] (https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/Form%20Response.png?raw=true)
+![Google Form Response Sheet](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/Form%20Response.png?raw=true)
 
 
 <br><br>
 
 
 **Sheet 2 : This Sheet Contains Data of Manager, Name, Code and Email** <br><br>
-![AM Data Sheet] (https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/Google%20Form.png?raw=true)
+![AM Data Sheet](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/Google%20Form.png?raw=true)
 
 <br><br>
  
@@ -70,7 +70,7 @@ This function gets triggered when ever a form is filled.<br>
 It Checks the mail status column of the Response Sheet, and on finding a row whoose mail status is not Done,<br>
 it sends a mail to the Employees' Manager. <br><br>
 
-![Mail to Manager] (https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/mail.png?raw=true)
+![Mail to Manager](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/mail.png?raw=true)
 <br><br>
 ### fetchManagerCode() Function
 <br>
@@ -97,7 +97,7 @@ This function takes Manager Code ( AM Code ) and returns the Manager Name and Ma
 ### Trigger on Main() function to send Mail on every form submit
 
 <br><br>
-![Main Trigger] https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/Trigger%20Main.png?raw=true)
+![Main Trigger](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/Trigger%20Main.png?raw=true)
 <br><br>
 
 ### Triger on updateManagers() function to send detail reports
