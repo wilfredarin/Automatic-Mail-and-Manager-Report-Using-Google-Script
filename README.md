@@ -1,4 +1,4 @@
-# Automatic-Mail-and-Manager-Report-Using-Google-Scripts
+# Automatic-Mail-and-Manager-Report-Using-Google-Script
 
 ### Problem Statement 
 We have Three Designations District Manager (DM), Whole Sale Distributors (WDs) and Area Manager (AMs). WDs have to upload a file using Google form and so that it reaches the  District Manager, since there are  100s of WDs under a District Manager, it's hard for a DM to keep track of all the files. So the DM assigns the task of following up WD's file uploads to few of the AMs.<br>
@@ -25,30 +25,30 @@ Start with creating a Google Form, With the following fields Name,WD Code (i.e E
 Create 4 sheets including, Form Response Sheet, i.e Google Sheet will have 4 Sheets with the following names:
 
   **Sheet 1 : Form Responses 1   <br>
-  Sheet 2 : WD AM Mapper   <br>
-  Sheet 3 : AM Data  <br>
-  Sheet 4 : WD Data **  <br><br><br>
+  Sheet 2 : AM Data   <br>
+  Sheet 3 : WD Data  <br>
+  Sheet 4 : WD AM Mapper**  <br><br><br>
 
 
 
-**Sheet 1 : Form Responses 1 ->  Add an extra column of Email Stautus to the Response Sheet** <br><br>
+**Sheet 1 : Form Responses 1 ->  Add an extra column of Email Status to the Response Sheet** <br><br>
 ![Google Form Response Sheet](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/Form%20Response.png?raw=true)
 
 
 <br><br>
 
 
-**Sheet 2 : WD AM Mapper -> This Sheet Contains Data of Manager, Name, Code and Email** <br><br>
+**Sheet 2 : AM Data -> This Sheet Contains Area Manager Name, Area Manager Code and Area Manager Email** <br><br>
 ![AM Data Sheet](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/AM%20DATA.png?raw=true)
 
 <br><br>
  
-**Sheet 3 :  AM Data -> Data of Employee, Name & Employee Code** <br>   <br>
+**Sheet 3 :  WD Data -> WD Name & WD Code** <br>   <br>
 ![WD Data Sheet](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/WD%20Data.png?raw=true)
 
 <br><br>
 
-**Sheet 4 : WD Data -> This Sheet has Employee ID (WD Code) mapped against Manager ID (AM Code)** <br><br>
+**Sheet 4 : WD AM Mapper Data -> This Sheet has  WD Code mapped against Area Manager Code (AM Code)** <br><br>
 ![WD AM Mapper Sheet](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/WD%20AM%20Mapper.png?raw=true)
 
 
