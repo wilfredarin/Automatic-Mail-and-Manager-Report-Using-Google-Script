@@ -69,7 +69,8 @@ This function gets triggered when ever a form is filled.<br>
 
 It Checks the mail status column of the Response Sheet, and on finding a row whoose mail status is not Done,<br>
 it sends a mail to the Employees' Manager. <br><br>
-![Mail to Manager](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/mail.png?raw=true)
+
+![Mail to Manager] (https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/mail.png?raw=true)
 <br><br>
 ### fetchManagerCode() Function
 <br>
