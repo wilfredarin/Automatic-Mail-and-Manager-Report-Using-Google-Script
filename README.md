@@ -47,7 +47,7 @@ Sheet 4 : This Sheet has Employee ID (WD Code) mapped against Manager ID (AM Cod
 The Google Script Code has 5 Functions to implement the required task.<br><br>
 1. main
 2. fetchManagerCode
-3. sendManagerReport
+3. updateManagers
 4. fetchWdName
 5. fetchAmNameEmail
 <br><br>
@@ -64,10 +64,11 @@ fetchManagerCode
 <br>
 This function takes Employee Code (WD Code in our case) as it's input and returns the Employee's Manager Code.
 <br><br>
-sendManagerReport
+updateManagers
 <br>
-This function sends a detailed report to the Manager, which includes the Number and Name the of Employees who have sent their reports and also of those who have not sent.<br><br>
-![Mail to Manager](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/mail.png?raw=true)
+
+This function sends a detailed report to the Manager, which includes the Number and Name the of Employees who have sent their reports and also of those who have not sent. It uses a function sendManagerReport.<br><br>
+![Mail to Manager](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/Manager%20Report.png?raw=true)
 <br><br>
 fetchWdName
 <br>
