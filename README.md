@@ -35,7 +35,7 @@ Create 4 sheets including, Form Response Sheet, i.e Google Sheet will have 4 She
 
 
 **Sheet 2 : This Sheet Contains Data of Manager, Name, Code and Email** <br><br>
-![AM Data Sheet](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/Google%20Form.png?raw=true)
+![AM Data Sheet](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/AM%20DATA.png?raw=true)
 
 <br><br>
  
@@ -51,7 +51,9 @@ Create 4 sheets including, Form Response Sheet, i.e Google Sheet will have 4 She
 <br><br>
 ## Step 3: ADD Google Script Code, main.gs From this repository to the Script editor in Google Sheet
 <br>
+
 [Copy this Code into the Google Sheet Script Editor](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/main.gs)
+
 <br>
 
 <br>
