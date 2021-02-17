@@ -85,15 +85,20 @@ This function sends a detailed report to the Manager, which includes the Number 
 <br>
 This function takes Employee ID (WD Code) and Returns the Employee Name (WD Name).
 <br><br>
+
 ### fetchAmNameEmail()
 <br>
 This function takes Manager Code ( AM Code ) and returns the Manager Name and Manager Email address.
 <br><br>
+
 ## Step 4 : Add Triggers<br><br>
+
 ### Trigger on Main() function to send Mail on every form submit
+
 <br><br>
-![Main Trigger](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/Trigger%20Main.png?raw=true)
+![Main Trigger] https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/Trigger%20Main.png?raw=true)
 <br><br>
+
 ### Triger on updateManagers() function to send detail reports
 <br><br>
 ![updateManagers Trigger](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/trigger%20update%20managers.png?raw=true)
