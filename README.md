@@ -15,7 +15,7 @@ Start with creating a Google Form, With the following fields Name,WD Code (i.e E
  
 ![Google Form](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/Google%20Form.png?raw=true)
 
-<br>
+
 ## Step 2 : Link the Google Form to Google Sheet for accepting responses
 
 Create 4 sheets including, Form Response Sheet, i.e Google Sheet will have 4 Sheets:
