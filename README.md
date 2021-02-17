@@ -22,33 +22,33 @@ Start with creating a Google Form, With the following fields Name,WD Code (i.e E
 
 ## Step 2 : Link the Google Form to Google Sheet for accepting responses
 
-Create 4 sheets including, Form Response Sheet, i.e Google Sheet will have 4 Sheets:
+Create 4 sheets including, Form Response Sheet, i.e Google Sheet will have 4 Sheets with the following names:
 
-  **Sheet 1 : Form Response Sheet   <br>
-  Sheet 2 : WD  AM Mapper Sheet  <br>
-  Sheet 3 : AM Data Sheet  <br>
-  Sheet 4 : WD Data Sheet**  <br><br><br>
+  **Sheet 1 : Form Responses 1   <br>
+  Sheet 2 : WD AM Mapper   <br>
+  Sheet 3 : AM Data  <br>
+  Sheet 4 : WD Data **  <br><br><br>
 
 
 
-**Sheet 1 : Add an extra column of Email Stautus to the Response Sheet** <br><br>
+**Sheet 1 : Form Responses 1 ->  Add an extra column of Email Stautus to the Response Sheet** <br><br>
 ![Google Form Response Sheet](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/Form%20Response.png?raw=true)
 
 
 <br><br>
 
 
-**Sheet 2 : This Sheet Contains Data of Manager, Name, Code and Email** <br><br>
+**Sheet 2 : WD AM Mapper -> This Sheet Contains Data of Manager, Name, Code and Email** <br><br>
 ![AM Data Sheet](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/AM%20DATA.png?raw=true)
 
 <br><br>
  
-**Sheet 3 :  Data of Employee, Name & Employee Code** <br>   <br>
+**Sheet 3 :  AM Data -> Data of Employee, Name & Employee Code** <br>   <br>
 ![WD Data Sheet](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/WD%20Data.png?raw=true)
 
 <br><br>
 
-**Sheet 4 : This Sheet has Employee ID (WD Code) mapped against Manager ID (AM Code)** <br><br>
+**Sheet 4 : WD Data -> This Sheet has Employee ID (WD Code) mapped against Manager ID (AM Code)** <br><br>
 ![WD AM Mapper Sheet](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/WD%20AM%20Mapper.png?raw=true)
 
 
@@ -62,11 +62,11 @@ Create 4 sheets including, Form Response Sheet, i.e Google Sheet will have 4 She
 
 <br>
 The Google Script Code has 5 Functions to implement the required task.
-1. main
-2. fetchManagerCode
-3. updateManagers
-4. fetchWdName
-5. fetchAmNameEmail
+1. main()
+2. fetchManagerCode()
+3. updateManagers()
+4. fetchWdName()
+5. fetchAmNameEmail()
 
 
 ### main() Function
