@@ -24,14 +24,14 @@ Start with creating a Google Form, With the following fields Name,WD Code (i.e E
 
 Create 4 sheets including, Form Response Sheet, i.e Google Sheet will have 4 Sheets with the following names:
 
-  **Sheet 1 : Form Responses 1   <br>
-  Sheet 2 : AM Data   <br>
-  Sheet 3 : WD Data  <br>
-  Sheet 4 : WD AM Mapper**  <br><br><br>
+  **Sheet 1 : "Form Responses 1"   <br>
+  Sheet 2 : "AM Data"   <br>
+  Sheet 3 : "WD Data"  <br>
+  Sheet 4 : "WD AM Mapper"**  <br><br><br>
 
 
 
-**Sheet 1 : Form Responses 1 ->  Add an extra column of Email Status to the Response Sheet** <br><br>
+**Sheet 1 : Form Responses 1 ->  Add an extra column of Mail Status to the Response Sheet** <br><br>
 ![Google Form Response Sheet](https://github.com/wilfredarin/Automatic-Mail-and-Manager-Report-Using-Google-Script/blob/main/Form%20Response.png?raw=true)
 
 
@@ -61,12 +61,12 @@ Create 4 sheets including, Form Response Sheet, i.e Google Sheet will have 4 She
 <br>
 
 <br>
-The Google Script Code has 5 Functions to implement the required task.
-1. main()
-2. fetchManagerCode()
-3. updateManagers()
-4. fetchWdName()
-5. fetchAmNameEmail()
+The Google Script Code has 5 Functions to implement the required task.<br><br>
+1. main()<br>
+2. fetchManagerCode()<br>
+3. updateManagers()<br>
+4. fetchWdName()<br>
+5. fetchAmNameEmail()<br>
 
 
 ### main() Function
