@@ -1,4 +1,4 @@
-# Automatic-Mail-and-Manager-Report-Using-Google-Script
+# Automatic mail through Google Sheet using Google Script
 
 ### Problem Statement 
 We have Three Designations District Manager (DM), Whole Sale Distributors (WDs) and Area Manager (AMs). WDs have to upload a file using Google form and so that it reaches the  District Manager, since there are  100s of WDs under a District Manager, it's hard for a DM to keep track of all the files. So the DM assigns the task of following up WD's file uploads to few of the AMs.<br>
